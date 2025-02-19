@@ -1,0 +1,25 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "Charles Dev Log"
+theme = "PaperMod"
+
+# Enable syntax highlighting (optional)
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  # Site description
+  description = "A personal diary of coding, project experiments, and tech insights."
+
+  # Enable PaperMod-specific features
+  author = "Charles Zheng"
+  defaultTheme = "light"  # or "dark" if you prefer
+  disableThemeToggle = false  # allows readers to switch between light/dark modes
+  summaryLength = 70
+
+  # Social links (optional)
+  [[params.social]]
+    icon = "fa-github"
+    icon_pack = "fab"
+    name = "GitHub"
+    url = "https://github.com/charleszheng44"
