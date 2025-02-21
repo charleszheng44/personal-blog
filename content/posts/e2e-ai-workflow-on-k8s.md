@@ -10,7 +10,7 @@ using PyTorch, Kubeflow, and Kubernetes. In this blog series, I’ll walk throug
 a basic example of that process, aimed at clarifying some of the moving parts involved.
 
 For demonstration, I built a Kubernetes cluster on a GCP instance featuring a T4 GPU, 
-2 vCPUs, and 8 GB of RAM. GCP is simply my choice here because I’ve got a $300 credit, 
+2 vCPUs, and 8 GB of RAM. GCP is simply my choice here because I’ve got free credit, 
 but AWS or Azure would do the job just as well.
 
 ## Setup GPU Drivers and Tools
