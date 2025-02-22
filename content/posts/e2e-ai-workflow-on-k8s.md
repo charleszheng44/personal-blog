@@ -2,7 +2,7 @@
 title: "From Training to Serving: AI with PyTorch & Kubeflow on K8s (I)"
 subtitle: "Set up a GPU Kubernetes cluster on GCP"
 date: 2025-02-18T20:23:12-08:00
-draft: false
+draft: true
 ---
 
 I’m interested in covering the entire pipeline—from model training to model serving
