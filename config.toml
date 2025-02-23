@@ -1,4 +1,4 @@
-baseURL = "https://yourdomain.com/"
+baseURL = "https://personal-blog-cyan-eight.vercel.app/"
 languageCode = "en-us"
 title = "Charles Dev Log"
 theme = "PaperMod"
