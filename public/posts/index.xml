@@ -6,8 +6,27 @@
     <description>Recent content in Posts on Charles Dev Log</description>
     <generator>Hugo -- 0.144.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2025 20:23:12 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 20:23:12 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Training to Serving: AI with PyTorch &amp; Kubeflow on K8s (II)</title>
+      <link>http://localhost:1313/posts/e2e-ai-workflow-on-k8s-2/</link>
+      <pubDate>Thu, 06 Mar 2025 20:23:12 -0800</pubDate>
+      <guid>http://localhost:1313/posts/e2e-ai-workflow-on-k8s-2/</guid>
+      <description>&lt;p&gt;In this guide, we’ll walk through the complete workflow of training a deep
+learning model using PyTorch and serving it locally with FastAPI. The examples
+presented here can be found in the following repository:&lt;br&gt;
+📌 &lt;strong&gt;&lt;a href=&#34;https://github.com/charleszheng44/pytorch-kubeflow-example/tree/main&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;setting-up-the-environment&#34;&gt;Setting Up the Environment&lt;/h2&gt;
+&lt;p&gt;Start by cloning the repository and installing the required dependencies:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python -m venv .venv 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; .venv/bin/activate 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;training-the-model&#34;&gt;Training the Model&lt;/h2&gt;
+&lt;p&gt;The provided training script trains a basic Convolutional Neural Network (CNN) on the &lt;strong&gt;MNIST dataset&lt;/strong&gt;, designed for handwritten digit recognition. The trained model will be saved in the &lt;code&gt;MODEL_DIR&lt;/code&gt; directory.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>From Training to Serving: AI with PyTorch &amp; Kubeflow on K8s (I)</title>
       <link>http://localhost:1313/posts/e2e-ai-workflow-on-k8s/</link>
